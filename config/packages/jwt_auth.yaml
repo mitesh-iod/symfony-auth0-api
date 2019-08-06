@@ -1,0 +1,4 @@
+jwt_auth:
+    domain: dev-vrs2ps4n.auth0.com
+    authorized_issuer: https://dev-vrs2ps4n.auth0.com/
+    api_identifier: http://localhost:8001/api
