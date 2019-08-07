@@ -1,0 +1,46 @@
+/.env.local
+/.env.*.local
+/public/bundles/
+public/media
+public/temp
+/public/blogs
+/var/
+/vendor/
+/nbproject/
+/public/project_access.log
+/public/project_error.log
+/composer.lock
+/symfony.lock
+
+.phpunit
+/phpunit.xml
+/.web-server-pid
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+/public/blogs/wp-config.php
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+###< symfony/webpack-encore-bundle ###
+.vscode/
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+cron/connection.php
+cron/cronConfiguration.php
+cron/sendmail.php
+/public/blogs/wp-content/uploads/
+/public/notification_log.txt
+/public/payment_log.txt
+/public/cron_log.txt
+public/js/firebase-messaging-sw.js
+public/js/firebase-notification.js
+/db_backup_script.sh
+/sql-backup/
+config/iod.global.php
+/public/tinymce
+###> liip/imagine-bundle ###
+/public/media/cache/
+###< liip/imagine-bundle ###

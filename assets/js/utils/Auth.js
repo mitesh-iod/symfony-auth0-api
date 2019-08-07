@@ -4,9 +4,9 @@ class Auth {
     constructor() {
         this.auth0 = new auth0.WebAuth({
             domain: 'dev-vrs2ps4n.auth0.com',
-            audience: 'http://localhost:8001/api',
-            clientID: 'Eiqcr8kVt7LA3lGedIhk6BpP2GHkwMEh',
-            redirectUri: 'http://localhost:8001/callback',
+            audience: 'http://13.symfony-react.mit/api',
+            clientID: 'MD9krUweMt0s1WWhvPWROL83zaHu3pBf',
+            redirectUri: 'http://13.symfony-react.mit/callback',
             responseType: 'token id_token',
             scope: 'openid profile'
         });
@@ -56,8 +56,8 @@ class Auth {
     logOut() {
 
         this.auth0.logout({
-            returnTo: 'http://localhost:8001/logout',
-            clientID: 'Eiqcr8kVt7LA3lGedIhk6BpP2GHkwMEh',
+            returnTo: 'http://13.symfony-react.mit/logout',
+            clientID: 'MD9krUweMt0s1WWhvPWROL83zaHu3pBf',
         });
     }
 

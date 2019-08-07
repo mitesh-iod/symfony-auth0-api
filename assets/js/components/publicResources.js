@@ -21,7 +21,7 @@ class FetchResourcePublic extends Component {
 
     fetchPublicResources() {
         if (!this.state.publicResources) {
-            axios.get('http://localhost:8001/api/public').then(res => {
+            axios.get('http://13.symfony-react.mit/api/public').then(res => {
                     this.setState({publicResources: res.data});
                 })
         }

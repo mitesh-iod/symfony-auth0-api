@@ -25,7 +25,7 @@ class FetchResourcePrivate extends Component {
     fetchPrivateResources () {
         if (!this.state.privateResources) {
             this.setState({ isLoading: true});
-            axios.get('http://localhost:8001/api/private', {
+            axios.get('http://13.symfony-react.mit/api/private', {
                     headers: {'authorization': `Bearer ${auth0Client.getAccessToken()}`}
                 }
             ).then(res => { this.setState({privateResources: res.data, isLoading: false}); })
